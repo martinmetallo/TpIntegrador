@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous">
+ </script>
+ <link rel="stylesheet" href="css/estilos.css"> 
+
+    <title>Trabajo Practico integrador</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            
+          <a class="navbar-brand ms-5" href="#"> <img src="/imagenes/codoacodo.png" width="80px"> Conf Bs As</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 offset-3 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Los oradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">El lugar y la fecha</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conviértete en orador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#"> Comprar tickets</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div id="carrusel" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner thumbnail oscuro">
+          <div class="carousel-item active ">
+            <img src="./imagenes/ba1.jpg" class="d-block w-100">
+             <div class="carousel-caption d-none d-md-block">
+                <h5>Conf Bs As</h5>
+                <div>
+                    <p class="texto">
+                        Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comumidad
+                        el conocimiento y experiencia de expertos que están creando el futuro de internet. Van a 
+                        conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel
+                        que tenemos para ti. Te esperamos!
+                    </p>
+                    <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+                    <button type="button" class="btn btn-success">Comprar tickets</button>
+                </div>
+              
+             </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/ba2.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Oradores</h5>
+                <p>En Bs As vas a poder conocer a grandes oradores como Bill Gates, Steve Jobs y Ada Lovelace.
+                </p>
+                <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+                <button type="button" class="btn btn-success">Comprar tickets</button>
+             </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/ba3.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Lugar y Fecha</h5>
+                <p>Podes visitarnos desde el 29/10 al 15/11.
+                    en el Centro cultural Kirchner.
+                </p>
+                <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+                <button type="button" class="btn btn-success">Comprar tickets</button>
+             </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <nav class="text-center">
+      <p class="fs-6 mt-1 mb-0">Conoce a los</p>
+      <p class="fs-3 fw-bold ">ORADORES</p>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/bill.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Bill Gates nos estará acompañando el día 29/10 a las 15 hs, No te lo pierdas!!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/steve.jpg" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Bill Gates nos estará acompañando el día 30/10 a las 16 hs, No te lo pierdas!!</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/ada.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Ada nos estará acompañando el día 02/11 a las 18 hs, No te lo pierdas!!</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <nav>
+      <div class="container">
+        <div class="row">
+          <div class="col  px-0">
+            <img src="./imagenes/honolulu.jpg" class="card-img-top" alt="...">
+          </div>
+          <div class="col  px-0">
+            <div class="negro ps-3">
+              <h5 class="pt-3">Bs As-Octubre</h5>
+              <p >Buenos Aires es la localidad más grande del estado de Argentina. En los Estados Unidos, 
+                Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre
+                de honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el 
+                condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla 
+                (aproximadamente 600 km² de superficie).
+              </p>
+              <button type="button" class="btn btn-outline-light">Conocé más</button>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <nav class="text-center">
+      <p class="fs-6 mt-1 mb-0">Conviértete en </p>
+      <p class="fs-3 fw-bold ">ORADOR</p>
+    </nav>
+    <div class="container">
+      <div class="mb-3">
+        <p class="text-center">Anótate como orador para dar una <span class="borde"> charla ignite.</span> Cuantenos de qué quieres hablar </p> 
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" id="nombre" placeholder="nombre">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" id="apellido" placeholder="apellido">
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre que queres hablar?"></textarea>
+        <label for="exampleFormControlTextarea1" class="form-label text-muted">Recuerda incluir un titulo para tu charla</label>
+      </div>
+      <div class="d-grid gap-2 mb-4">
+        <button class="btn btn-primary" type="button">Button</button>
+      </div>
+    </div>
+    <footer class="container-fluid bg-primary bg-gradient py-3 text-center text-light">
+        <p>Esto es un footer!</p>
+    </footer>
+   
+</body>
+</html>
