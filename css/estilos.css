@@ -31,9 +31,7 @@
 
 
 .texto{
-    filter: grayscale(10%)
-    contrast(95%)
-    brightness(200%);
+    filter: brightness(1.75);
     color: white;
  
 }
@@ -48,4 +46,16 @@
 .borde{
     text-decoration:underline;
 text-decoration-style: dotted;
+}
+
+.boton{
+    background-color: rgb(121, 180, 76);
+}
+
+.colorf{
+    background-color: rgb(20, 20, 59);
+}
+
+.titulo{
+    text-align: right;
 }
